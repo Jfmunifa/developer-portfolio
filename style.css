@@ -8,14 +8,15 @@ h1{
 .color-change{
 color:blueviolet;
 }       
-section{
+.flexible-container{
     display:flex;
+    margin-bottom: 150px;
 }
 .width{
     width:50%;
     padding-left: 10px;
     padding-right: 10px;
-    margin-left: 2px;
+    margin-left: 20px;
     margin-right: 10px;
 }
 .width img{
@@ -26,4 +27,54 @@ button{
     padding:2% 5%;
     border-radius: 5%;
     font-weight: 600;
+}
+    margin-right: 2%;
+    margin-left: 2%;
+    padding: 10px 20px;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+.next-track{
+    font-weight: 700;
+    text-align: center;
+    margin-bottom:500px;
+}
+.parent{
+    display: flex;
+    justify-content: space-around;
+}
+.child1{
+    width: 300px;
+    border: 1px solid whitesmoke;
+    border-radius: 5%;
+    background-color: wheat;
+    padding: 2%;
+    text-align: justify;
+}
+.child1 img{
+    width: 100%;
+}
+.child2{
+    width: 300px;
+    border-radius: 5%;
+    background-color: violet;
+    padding: 2%;
+    text-align: justify;
+}
+.child2 img{
+    width: 100%;
+}
+.child3{
+    width: 300px;
+    border-radius: 5%;
+    padding: 2%;
+    background-color:turquoise;
+    text-align: justify;
+}
+.child3 img{
+    width: 100%;
 }
