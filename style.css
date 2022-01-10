@@ -79,4 +79,18 @@ button{
 .child3 img{
     width: 100%;
 }
-
+header{
+    display: block;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 150px;}
+    
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:limegreen;
+  color: white;
+  text-align: center;
+}
