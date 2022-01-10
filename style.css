@@ -10,7 +10,7 @@ color:blueviolet;
 }       
 .flexible-container{
     display:flex;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 .width{
     width:50%;
@@ -21,6 +21,7 @@ color:blueviolet;
 }
 .width img{
 width:80%;
+height: 70%;
 }
 button{
     background-color: coral;
@@ -78,3 +79,4 @@ button{
 .child3 img{
     width: 100%;
 }
+
